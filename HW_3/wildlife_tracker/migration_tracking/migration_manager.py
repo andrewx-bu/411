@@ -1,7 +1,7 @@
 from typing import Any, Optional
 from migration import Migration
 from migration_path import MigrationPath
-from habitat_management.habitat import Habitat
+from wildlife_tracker.habitat_management.habitat import Habitat
 
 class MigrationManager:
     def __init__(self) -> None:

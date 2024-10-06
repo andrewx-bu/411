@@ -1,6 +1,6 @@
 from typing import Any, List
 from habitat import Habitat
-from animal_management.animal import Animal
+from wildlife_tracker.animal_management.animal import Animal
 
 class HabitatManager:
     def __init__(self) -> None:

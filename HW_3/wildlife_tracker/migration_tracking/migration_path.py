@@ -1,5 +1,5 @@
 from typing import Optional
-from habitat_management.habitat import Habitat
+from wildlife_tracker.habitat_management.habitat import Habitat
 
 class MigrationPath:
     def __init__(self, current_date: str, current_location: str, destination: Habitat, species: str, start_date: str, start_location: Habitat, duration: Optional[int] = None) -> None:
