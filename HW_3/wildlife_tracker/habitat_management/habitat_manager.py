@@ -6,22 +6,22 @@ class HabitatManager:
     def __init__(self) -> None:
         self.habitats: dict[int, Habitat] = {}
 
-    def update_habitat_details(self, **kwargs: dict[str: Any]) -> None:
-        pass
-
-    def assign_animals_to_habitat(self, animals: List[Animal]) -> None:
+    def assign_animals_to_habitat(animals: List[Animal]) -> None:
         pass
 
     def assign_animals_to_habitat(habitat_id: int, animals: List[Animal]) -> None:
         pass
 
-    def get_animals_in_habitat(self) -> List[Animal]:
+    def create_habitat(habitat_id: int, geographic_area: str, size: int, environment_type: str) -> Habitat:
         pass
 
-    def get_habitat_details(self) -> dict:
+    def get_animals_in_habitat(habitat_id: int) -> List[Animal]:
         pass
 
     def get_habitat_by_id(habitat_id: int) -> Habitat:
+        pass
+
+    def get_habitat_details(habitat_id: int) -> dict:
         pass
 
     def get_habitats_by_geographic_area(geographic_area: str) -> List[Habitat]:
@@ -33,8 +33,8 @@ class HabitatManager:
     def get_habitats_by_type(environment_type: str) -> List[Habitat]:
         pass
 
-    def create_habitat(habitat_id: int, geographic_area: str, size: int, environment_type: str) -> Habitat:
+    def remove_habitat(habitat_id: int) -> None:
         pass
 
-    def remove_habitat(habitat_id: int) -> None:
+    def update_habitat_details(habitat_id: int, **kwargs: dict[str, Any]) -> None:
         pass
