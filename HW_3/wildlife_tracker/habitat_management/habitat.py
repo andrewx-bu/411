@@ -1,6 +1,5 @@
 from typing import List, Optional
 
-# WORKS
 class Habitat:
     def __init__(self,
                 habitat_id: int,

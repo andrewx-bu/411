@@ -1,7 +1,6 @@
 from typing import Any, Optional
 from animal import Animal
 
-# WORKS
 class AnimalManager:
     def __init__(self) -> None:
         self.animals: dict[int, Animal] = {}
